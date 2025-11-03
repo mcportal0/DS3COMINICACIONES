@@ -1,0 +1,113 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import productsData from "../../data/productos.json";
+import ProductDisponible from "../../components/ProductDisponible.astro";
+import ProductGallery from "../../components/ProductGallery.tsx";
+import ProductoDetalle from "../../components/ProductoDetalle.tsx";
+
+
+
+export const prerender = true;
+
+export async function getStaticPaths() {
+  return productsData.map((producto) => ({
+    params: { slug: producto.slug },
+    props: { producto },
+  }));
+}
+
+const { producto } = Astro.props;
+
+---
+
+<Layout title={producto.name}>
+  <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
+		
+    <div class="bg-white  py-3 flex px-4 justify-center">
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-12">
+      <div class="space-y-4">
+        
+
+        <ProductGallery client:load img={producto.img} />
+      </div>
+
+      {/* Producto Info */}
+      <div class="space-y-6">
+        <div>
+          <p class="text-sm text-gray-500 mb-2">{producto.marca}</p>
+          <h1 class="text-xl font-bold text-gray-900 mb-4">{producto.name}</h1>
+
+          <div class="flex items-baseline gap-4 mb-4">
+           
+            <div>
+              <p class="text-xs text-gray-500">Precio Promocional</p>
+              <p class="text-3xl font-bold text-primary">U$ {producto.price}</p>
+            </div>
+          </div>
+
+          <div class="space-y-2 mb-6">
+            <p class="text-sm text-gray-700">{producto.description}</p>
+            <p class="text-sm text-gray-600">• RS: DN0466</p>
+            <button class="text-sm text-primary hover:underline font-semibold">Ver más</button>
+          </div>
+        </div>
+
+
+        <div class="space-y-3">
+          <p class="text-sm font-semibold">Métodos de entrega disponibles:</p>
+          <div class="space-y-2">
+            <div class="flex items-center justify-between p-3 bg-white rounded-lg border border-gray-200">
+              <div class="flex items-center gap-3">
+                <div class="w-10 h-10 bg-primary rounded-lg flex items-center justify-center">
+                  <div class="w-5 h-5 border-2 border-white rounded"></div>
+                </div>
+                <div>
+                  <p class="text-sm font-semibold">Despacho a domicilio</p>
+                  <p class="text-xs text-gray-500">Disponible</p>
+                </div>
+              </div>
+            </div>
+            <div class="flex items-center justify-between p-3 bg-white rounded-lg border border-gray-200">
+              <div class="flex items-center gap-3">
+                <div class="w-10 h-10 bg-primary rounded-lg flex items-center justify-center">
+                  <div class="w-5 h-5 bg-white rounded"></div>
+                </div>
+                <div>
+                  <p class="text-sm font-semibold">Retiro en tienda (Gratis)</p>
+                  <p class="text-xs text-gray-500">Disponible</p>
+                </div>
+              </div>
+              <button class="text-sm text-primary hover:underline">Consultar</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="flex gap-2 text-white">
+          <div class="bg-[#F5BA52] p-2 rounded-lg">
+            <a href="">
+            Ficha Tecnica
+            </a>
+          </div>
+          <div class="bg-[#F5BA52] p-2  rounded-lg">
+            <a href="">
+           Manual
+            </a>
+          </div>
+        </div>
+
+        <div class="flex gap-4">
+          <button class="flex-1 bg-primary hover:bg-[#0c35eb] text-white py-6 text-base font-semibold rounded-full">
+            COMPRAR AHORA
+          </button>
+        </div>
+      </div>
+
+    </div>
+    </div>
+
+
+     <ProductoDetalle producto={producto} client:load/>
+    <ProductDisponible  />
+	</main>
+
+</Layout>

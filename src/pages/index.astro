@@ -1,0 +1,13 @@
+---
+import Layout from '../layouts/Layout.astro';
+import ProductSection from '../components/ProductSection';
+import ProductDisponible from '../components/ProductDisponible.astro';
+---
+
+<Layout>
+	
+	<main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
+		<ProductSection client:load />
+		<ProductDisponible />
+	</main>
+</Layout>

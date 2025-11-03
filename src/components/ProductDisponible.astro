@@ -1,0 +1,36 @@
+---
+
+// import { useState } from "react";
+import ProductItemInteres from "./ProductItemInteres.astro";
+
+import productos from "../data/productos.json";
+---
+
+<div class="mb-12">
+      <h2 class="text-2xl font-bold mb-6">También te podría interesar</h2>
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+      {
+        productos.map((product: {
+          name: string;
+          slug: string;
+          price: number;
+          image: string;
+          marca: string;
+          description: string;
+        
+        }) => (
+        <ProductItemInteres 
+          slug={product.slug}
+          name={product.name}
+          price={product.price}
+          image={product.image}
+          marca={product.marca}
+          description={product.description}
+     
+          />
+      ))
+      }
+      </div>
+    </div>
+
+

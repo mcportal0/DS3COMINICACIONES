@@ -1,0 +1,150 @@
+[
+    {
+        "id": 1,
+        "name": "C9200L-24P-4G-E",
+        "slug": "Switch-Cisco-Catalyst-C9200L-24P-SFP-C9200L-24P-4G-E",
+        "price": 1.979,
+        "marca": "CISCO",
+        "image": "https://web.netperu100.com/cisco/catalyst/images/C9200L-24P-4G-E_front_large.jpg",
+        "image2": "https://web.netperu100.com/cisco/catalyst/images/C9200L-24P-4G-E_back.jpg",
+        "img": [
+            "https://web.netperu100.com/cisco/catalyst/images/C9200L-24P-4G-E_front_large.jpg",
+            "https://web.netperu100.com/cisco/catalyst/images/C9200L-24P-4G-E_back.jpg"
+        ],
+        "description": "Switch Cisco Catalyst C9200L-24P, capa L3 con 24 puertos Gigabit PoE+ (370W) , 04 puertos para fibra SFP C9200L-24P-4G-E",
+        "esptecnicas": [
+            "Modelo: C9200L-24P-4G-E",
+            "Puertos: 24 x 10/100/1000 PoE+ , 4 x SFP",
+            "Capacidad de Switching: 128 Gbps",
+            "Tabla de direcciones MAC: 32,000",
+            "Memoria Flash: 4 GB",
+            "Memoria DRAM: 2 GB",
+            "Fuente de Poder: Interna, 370W",
+            "Dimensiones (Al x An x Pr): 4.45 x 44.5 x 40.5 cm",
+            "Peso: 5.2 kg",
+            "Certificaciones: FCC Part 15, CE, UL, cUL, VCCI, RCM"
+        ],
+        "protocolos": [
+            "Protocolo de direccionamiento: OSPF, IS-IS, BGP, EIGRP, DVMRP, PIM-SM, IGMPv3, GRE, PIM-SSM, enrutamiento IPv4 estático, enrutamiento IPv6 estático",
+            "Protocolo de gestión remota: SNMP 1, RMON, Telnet, SNMP 3, SNMP 2c, HTTP, HTTPS, SSH"
+        ],
+        "normas": [
+            "IEEE 802.3, IEEE 802.3u, IEEE 802.3z, IEEE 802.1D, IEEE 802.1Q, IEEE 802.3ab, IEEE 802.1p, IEEE 802.3af, IEEE 802.3x, IEEE 802.3ad (LACP), IEEE 802.1w, IEEE 802.1x, IEEE 802.1s, IEEE 802.3ah, IEEE 802.1ab (LLDP)"
+        ],
+        "certificaciones": [
+            "Certificaciones: CE, TUV GS, cUL, EN 60950, EN55022, NOM, VCCI Class A ITE, IEC 60950, EN55024, FCC Part 15, UL 1950 (3), CSA 22.2 No. 950 (3)",
+            "Temperatura de operación: -5 – 45 °C"
+        ]
+    },
+    {
+        "id": 2,
+        "name": "C9200L-24T-4G-E",
+        "slug": "Switch-Cisco-Catalyst-9200L-C9200L-24T-SFP-C9200L-24T-4G-E",
+        "price": 1.195,
+        "marca": "CISCO",
+        "image": "https://web.netperu100.com/cisco/catalyst/images/C9200L-24T-4G-E_front.jpg",
+        "image2": "https://web.netperu100.com/cisco/catalyst/images/C9200L-24T-4G-E_front_large.jpg",
+        "img": [
+            "https://web.netperu100.com/cisco/catalyst/images/C9200L-24T-4G-E_front.jpg",
+            "https://web.netperu100.com/cisco/catalyst/images/C9200L-24T-4G-E_front_large.jpg"
+        ],
+        "description": "Switch Cisco Catalyst 9200L C9200L-24T, capa L3 con 24 puertos Gigabit, 04 puertos para fibra SFP C9200L-24T-4G-E",
+        "esptecnicas": [
+            "Modelo: C9200L-24P-4G-E",
+            "Puertos: 24 x 10/100/1000 PoE+ , 4 x SFP",
+            "Capacidad de Switching: 128 Gbps",
+            "Tabla de direcciones MAC: 32,000",
+            "Memoria Flash: 4 GB",
+            "Memoria DRAM: 2 GB",
+            "Fuente de Poder: Interna, 370W",
+            "Dimensiones (Al x An x Pr): 4.45 x 44.5 x 40.5 cm",
+            "Peso: 5.2 kg",
+            "Certificaciones: FCC Part 15, CE, UL, cUL, VCCI, RCM"
+        ],
+        "protocolos": [
+            "Protocolo de direccionamiento: OSPF, IS-IS, BGP, EIGRP, DVMRP, PIM-SM, IGMPv3, GRE, PIM-SSM, enrutamiento IPv4 estático, enrutamiento IPv6 estático",
+            "Protocolo de gestión remota: SNMP 1, RMON, Telnet, SNMP 3, SNMP 2c, HTTP, HTTPS, SSH"
+        ],
+        "normas": [
+            "IEEE 802.3, IEEE 802.3u, IEEE 802.3z, IEEE 802.1D, IEEE 802.1Q, IEEE 802.3ab, IEEE 802.1p, IEEE 802.3af, IEEE 802.3x, IEEE 802.3ad (LACP), IEEE 802.1w, IEEE 802.1x, IEEE 802.1s, IEEE 802.3ah, IEEE 802.1ab (LLDP)"
+        ],
+        "certificaciones": [
+            "Certificaciones: CE, TUV GS, cUL, EN 60950, EN55022, NOM, VCCI Class A ITE, IEC 60950, EN55024, FCC Part 15, UL 1950 (3), CSA 22.2 No. 950 (3)",
+            "Temperatura de operación: -5 – 45 °C"
+        ]
+    },
+    {
+        "id": 3,
+        "name": "C9200L-24T-4X-E",
+        "slug": "Switch-Cisco-Catalyst-9200L-C9200L-24T-SFP+C9200L-24T-4X-E",
+        "price": 1.959,
+        "marca": "CISCO",
+        "image": "https://web.netperu100.com/cisco/catalyst/images/C9200L-24T-4X-E_front.jpg",
+        "image2": "https://web.netperu100.com/cisco/catalyst/images/C9200L-24T-4X-E_back.jpg",
+        "img": [
+            "https://web.netperu100.com/cisco/catalyst/images/C9200L-24T-4X-E_front.jpg",
+            "https://web.netperu100.com/cisco/catalyst/images/C9200L-24T-4X-E_back.jpg"
+        ],
+        "description": "Switch Cisco Catalyst 9200L C9200L-24T, capa L3 con 24 puertos Gigabit, 04 puertos 10G para fibra SFP+ C9200L-24T-4X-E",
+        "esptecnicas": [
+            "Modelo: C9200L-24P-4G-E",
+            "Puertos: 24 x 10/100/1000 PoE+ , 4 x SFP",
+            "Capacidad de Switching: 128 Gbps",
+            "Tabla de direcciones MAC: 32,000",
+            "Memoria Flash: 4 GB",
+            "Memoria DRAM: 2 GB",
+            "Fuente de Poder: Interna, 370W",
+            "Dimensiones (Al x An x Pr): 4.45 x 44.5 x 40.5 cm",
+            "Peso: 5.2 kg",
+            "Certificaciones: FCC Part 15, CE, UL, cUL, VCCI, RCM"
+        ],
+        "protocolos": [
+            "Protocolo de direccionamiento: OSPF, IS-IS, BGP, EIGRP, DVMRP, PIM-SM, IGMPv3, GRE, PIM-SSM, enrutamiento IPv4 estático, enrutamiento IPv6 estático",
+            "Protocolo de gestión remota: SNMP 1, RMON, Telnet, SNMP 3, SNMP 2c, HTTP, HTTPS, SSH"
+        ],
+        "normas": [
+            "IEEE 802.3, IEEE 802.3u, IEEE 802.3z, IEEE 802.1D, IEEE 802.1Q, IEEE 802.3ab, IEEE 802.1p, IEEE 802.3af, IEEE 802.3x, IEEE 802.3ad (LACP), IEEE 802.1w, IEEE 802.1x, IEEE 802.1s, IEEE 802.3ah, IEEE 802.1ab (LLDP)"
+        ],
+        "certificaciones": [
+            "Certificaciones: CE, TUV GS, cUL, EN 60950, EN55022, NOM, VCCI Class A ITE, IEC 60950, EN55024, FCC Part 15, UL 1950 (3), CSA 22.2 No. 950 (3)",
+            "Temperatura de operación: -5 – 45 °C"
+        ]
+    },
+    {
+        "id": 3,
+        "name": "C9200L-48T-4G-E",
+        "slug": "Switch-Cisco-Catalyst-9200L-C9200L-48T-SFPC9200L-48T-4G-E",
+        "price": 1.629,
+        "marca": "CISCO",
+        "image": "https://web.netperu100.com/cisco/catalyst/images/C9200L-48T-4G-E_front.jpg",
+        "image2": "https://web.netperu100.com/cisco/catalyst/images/C9200L-48T-4G-E_back.jpg",
+        "img": [
+            "https://web.netperu100.com/cisco/catalyst/images/C9200L-48T-4G-E_front.jpg",
+            "https://web.netperu100.com/cisco/catalyst/images/C9200L-48T-4G-E_back.jpg"
+        ],
+        "description": "Switch Cisco Catalyst 9200L C9200L-48T, capa L3 con 48 puertos Gigabit, 04 puertos para fibra SFP C9200L-48T-4G-E",
+        "esptecnicas": [
+            "Modelo: C9200L-24P-4G-E",
+            "Puertos: 24 x 10/100/1000 PoE+ , 4 x SFP",
+            "Capacidad de Switching: 128 Gbps",
+            "Tabla de direcciones MAC: 32,000",
+            "Memoria Flash: 4 GB",
+            "Memoria DRAM: 2 GB",
+            "Fuente de Poder: Interna, 370W",
+            "Dimensiones (Al x An x Pr): 4.45 x 44.5 x 40.5 cm",
+            "Peso: 5.2 kg",
+            "Certificaciones: FCC Part 15, CE, UL, cUL, VCCI, RCM"
+        ],
+        "protocolos": [
+            "Protocolo de direccionamiento: OSPF, IS-IS, BGP, EIGRP, DVMRP, PIM-SM, IGMPv3, GRE, PIM-SSM, enrutamiento IPv4 estático, enrutamiento IPv6 estático",
+            "Protocolo de gestión remota: SNMP 1, RMON, Telnet, SNMP 3, SNMP 2c, HTTP, HTTPS, SSH"
+        ],
+        "normas": [
+            "IEEE 802.3, IEEE 802.3u, IEEE 802.3z, IEEE 802.1D, IEEE 802.1Q, IEEE 802.3ab, IEEE 802.1p, IEEE 802.3af, IEEE 802.3x, IEEE 802.3ad (LACP), IEEE 802.1w, IEEE 802.1x, IEEE 802.1s, IEEE 802.3ah, IEEE 802.1ab (LLDP)"
+        ],
+        "certificaciones": [
+            "Certificaciones: CE, TUV GS, cUL, EN 60950, EN55022, NOM, VCCI Class A ITE, IEC 60950, EN55024, FCC Part 15, UL 1950 (3), CSA 22.2 No. 950 (3)",
+            "Temperatura de operación: -5 – 45 °C"
+        ]
+    }
+]
