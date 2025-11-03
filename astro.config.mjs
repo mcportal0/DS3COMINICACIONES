@@ -7,8 +7,8 @@ import react from '@astrojs/react';
 
 // https://astro.build/config
 export default defineConfig({
-  // site: 'mcportal0.github.io',
-  // base: '/web-ds3-example.github.io/',
+  site: 'https://mcportal0.github.io',
+  base: 'DS3COMUNICACIONES',
   vite: {
     plugins: [tailwindcss()]
   },
